@@ -18,6 +18,10 @@
   environment.systemPackages = with pkgs; [
     gnome-tweaks
     gnome-extension-manager
+    gnomeExtensions.blur-my-shell
+    gnomeExtensions.clipboard-indicator
+    gnomeExtensions.user-themes
+    gnomeExtensions.places-status-indicator
   ];
 
   # Sound with PipeWire
