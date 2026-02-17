@@ -27,10 +27,6 @@
     gparted
     home-manager
 
-    # Gaming - REMOVED: x86-64 only
-    # steam
-    # hydralauncher
-    spicetify-cli
   ];
 
   # Enable Firefox
