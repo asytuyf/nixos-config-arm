@@ -23,6 +23,8 @@
 
     # AI tools
     claude-code
+    gemini-cli-bin
+    opencode
 
     # Code editors
     vscode
