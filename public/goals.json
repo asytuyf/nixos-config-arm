@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1770602846",
+    "project": "Website",
+    "task": "Make a section of the website where i can see like real time like info about my pc's that are turned on which leads to a much complicated project (AI into the site)",
+    "priority": "Med",
+    "status": "PENDING",
+    "date": "2026-02-09"
+  },
+  {
+    "id": "1770632955",
+    "project": "Life",
+    "task": "GEt gemini trial for 1 year using uni email and link it to my personel gmail maybe",
+    "priority": "Med",
+    "status": "PENDING",
+    "date": "2026-02-09",
+    "subgoals": [
+      {
+        "id": "1771030451348",
+        "text": "omg",
+        "completed": false
+      },
+      {
+        "id": "1771030454822",
+        "text": "wowowwo",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": "1771033703370",
+    "task": "three.js website",
+    "project": "Project Ideas",
+    "priority": "Low",
+    "date": "2026-02-14"
+  },
+  {
+    "id": "1771089896832",
+    "task": "Fix copy paste issue within nixos vms and session save",
+    "project": "Nios",
+    "priority": "Medium",
+    "date": "2026-02-14"
+  },
+  {
+    "id": "1771259598388",
+    "task": "Make a nixos config for my mac arm because the one i have is x86_64",
+    "project": "NixOS",
+    "priority": "Medium",
+    "date": "2026-02-16"
+  }
+]

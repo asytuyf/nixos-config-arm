@@ -1,0 +1,15 @@
+# Nix build results
+result
+result-*
+
+# Hardware configuration (machine-specific, auto-generated)
+hardware-configuration.nix
+
+# Local state files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Your cheatsheet is personal
+my_cheatsheet.txt

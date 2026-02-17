@@ -1,0 +1,14 @@
+[
+  {
+    "cmd": "vault-sync",
+    "cat": "git",
+    "desc": "Push my new commands to GitHub and trigger the Vercel deploy for my directory website.",
+    "date": "2026-02-08"
+  },
+  {
+    "cmd": "mycmds",
+    "cat": "terminal",
+    "desc": "Quickly view the local cheatsheet of all saved commands in the terminal.",
+    "date": "2026-02-08"
+  }
+]
