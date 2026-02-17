@@ -3,7 +3,6 @@ result
 result-*
 
 # Hardware configuration (machine-specific, auto-generated)
-hardware-configuration.nix
 
 # Local state files
 *.swp
