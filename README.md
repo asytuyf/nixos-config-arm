@@ -85,16 +85,6 @@ Pre-configured extensions include:
 - Clipboard Indicator
 - gTile
 - And more...
-
-## Differences from x86 Config
-
-| Feature | x86 | ARM |
-|---------|-----|-----|
-| bspwm packages | Enabled | Disabled |
-| Steam/Gaming | Yes | No |
-| Spotify | Yes | Via web/alternatives |
-| sops-nix secrets | Yes | No |
-
 ---
 
 **NixOS 25.11** | **aarch64-linux** | **Flakes + Home Manager**
