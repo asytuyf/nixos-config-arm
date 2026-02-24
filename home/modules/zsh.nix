@@ -6,6 +6,10 @@
     enableCompletion = true;
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
+    initExtra = ''
+    source "~/personnel_projects/error_fix/init.sh"
+    '';
+
 
     shellAliases = {
       ll = "ls -l";
