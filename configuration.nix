@@ -54,6 +54,7 @@
     dates = "weekly";
     flake = "/etc/nixos";
     flags = [ "--update-input" "nixpkgs" ];
+    operation = "boot";  # Only apply on next reboot, not immediately
     allowReboot = false;
   };
 
