@@ -7,7 +7,7 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     initExtra = ''
-    source "~/personnel_projects/error_fix/init.sh"
+    source ${config.home.homeDirectory}/personnel_projects/error_fix/init.sh
     '';
 
 

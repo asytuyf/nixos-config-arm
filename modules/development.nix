@@ -28,6 +28,7 @@
 
     # Code editors
     vscode
+    antigravity
     micro
     vim
   ];

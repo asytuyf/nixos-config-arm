@@ -54,7 +54,11 @@
     dates = "weekly";
     flake = "/etc/nixos";
     flags = [ "--update-input" "nixpkgs" ];
+    allowReboot = false;
   };
+
+  # VMware Fusion integration (clipboard, drag-drop, display resize)
+  virtualisation.vmware.guest.enable = true;
 
   system.stateVersion = "25.11";
 }

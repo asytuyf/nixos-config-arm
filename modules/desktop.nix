@@ -21,6 +21,13 @@
     gnomeExtensions.blur-my-shell
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.user-themes
+    
+    # Clipboard tools
+    wl-clipboard
+    xclip
+    
+    # Screenshot
+    gnome-screenshot
   ];
 
   # Sound with PipeWire
