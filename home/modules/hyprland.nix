@@ -91,7 +91,7 @@ HELP
       "$mod" = "SUPER";
 
       # Monitors
-      monitor = ",preferred,auto,1";
+      monitor = ",preferred,auto,1.5";  # 1.5x scale for 13" MacBook Air
 
       # Autostart
       exec-once = [

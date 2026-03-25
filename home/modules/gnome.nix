@@ -41,14 +41,36 @@
       idle-delay = 0;
     };
 
-    # Dark theme settings
+    # Scaling for 13" MacBook Air (2560x1600)
+    "org/gnome/mutter" = {
+      experimental-features = [ "scale-monitor-framebuffer" ];
+    };
+
+    # Dark theme + scaling settings
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
       gtk-theme = "Adwaita-dark";
+      icon-theme = "Adwaita";
+      cursor-theme = "Adwaita";
+      text-scaling-factor = 1.25;
+      scaling-factor = 1;
+    };
+
+    # Night Light for less eye strain
+    "org/gnome/settings-daemon/plugins/color" = {
+      night-light-enabled = true;
+      night-light-temperature = 3500;
+      night-light-schedule-automatic = true;
     };
 
     "org/gnome/desktop/background" = {
       picture-options = "zoom";
+      primary-color = "#000000";
+    };
+
+    # Darker shell theme
+    "org/gnome/shell/extensions/user-theme" = {
+      name = "Adwaita-dark";
     };
   };
 }
