@@ -56,13 +56,6 @@
       scaling-factor = 1;
     };
 
-    # Night Light for less eye strain
-    "org/gnome/settings-daemon/plugins/color" = {
-      night-light-enabled = true;
-      night-light-temperature = 3500;
-      night-light-schedule-automatic = true;
-    };
-
     "org/gnome/desktop/background" = {
       picture-options = "zoom";
       primary-color = "#000000";
