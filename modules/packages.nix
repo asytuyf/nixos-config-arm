@@ -26,7 +26,10 @@
     # System utilities
     gparted
     home-manager
+    dysk  # Modern disk usage tool
 
+    # Productivity
+    obsidian  # Note-taking app
   ];
 
   # Enable Firefox
